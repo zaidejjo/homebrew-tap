@@ -4,21 +4,21 @@ cask "zgit" do
 
   on_macos do
     on_arm do
-      sha256 "7b7bbe8d396191c4826c3f4c5ab1bd257282d6cfae4644df38d669cf7205d2fe"
+      sha256 "69677d1655b40f2ef97d3edab0ca38b3fe926286941e22da5130fc258e37effb"
       url "https://github.com/zaidejjo/zgit/releases/download/v#{version}/zgit-v#{version}-darwin-arm64.tar.gz"
     end
     on_intel do
-      sha256 "3cbba4117622d2546b75f36bea797344d512292bda5166ceb87adf3423fcd571"
+      sha256 "f02657f274d403a9986b6a896920e0cbc98e8c0ad773dca54f592a5757a66f8f"
       url "https://github.com/zaidejjo/zgit/releases/download/v#{version}/zgit-v#{version}-darwin-amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "812a863c254e8262e05ef2bed8f0c608f4c9e8e9c1215c175864fe1c777583de"
+      sha256 "c1d9cea296c454d4ea17091701e7a17a17befeb5ca15ef6d3dcb78496c533ef7"
       url "https://github.com/zaidejjo/zgit/releases/download/v#{version}/zgit-v#{version}-linux-arm64.tar.gz"
     end
     on_intel do
-      sha256 "0b007920f4206904965e1a57d55a6c611941ac2d9dc81f437b213ddc50e95cae"
+      sha256 "e1ff963c6a1bd096fceaff9bce50f231c54d0e0bffdfdde46ebd2d9981bbe2d0"
       url "https://github.com/zaidejjo/zgit/releases/download/v#{version}/zgit-v#{version}-linux-amd64.tar.gz"
     end
   end
