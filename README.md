@@ -8,6 +8,7 @@ by that app's release pipeline (GoReleaser).
 
 ```sh
 brew tap zaidejjo/tap
+brew trust zaidejjo/tap   # one time: third-party taps are untrusted by default
 brew install --cask <package>
 ```
 
@@ -15,7 +16,7 @@ brew install --cask <package>
 
 | Package | Install | Source |
 |---|---|---|
-| zgit | `brew install --cask zaidejjo/tap/zgit` | [zaidejjo/zgit](https://github.com/zaidejjo/zgit) |
+| zgit | `brew trust zaidejjo/tap && brew install --cask zaidejjo/tap/zgit` | [zaidejjo/zgit](https://github.com/zaidejjo/zgit) |
 
 ## Adding a new package
 
