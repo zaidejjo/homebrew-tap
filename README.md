@@ -1,7 +1,9 @@
 # homebrew-tap
 
-Homebrew tap for [zgit](https://github.com/zaidejjo/zgit).
+Personal Homebrew tap. One repo serves all packages — each app gets its own Cask.
 
-```sh
-brew install zaidejjo/tap/zgit
-```
+## Packages
+
+| Package | Install |
+|---|---|
+| [zgit](https://github.com/zaidejjo/zgit) | `brew install --cask zaidejjo/tap/zgit` |
